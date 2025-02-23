@@ -1,0 +1,22 @@
+   # Dependencias de Composer
+   /vendor/
+   /web/core/
+   /web/libraries/
+   /web/modules/contrib/
+   /web/profiles/contrib/
+   /web/themes/contrib/
+
+   # Archivos generados/imágenes
+   /web/sites/*/files/
+   /web/sites/default/files/
+
+   # Configuración del entorno
+   /web/sites/*/settings*.php
+   *.env
+
+   # Archivos temporales
+   /.idea/
+   /.vscode/
+   /node_modules/
+   /tmp/
+   .DS_Store
