@@ -1,0 +1,29 @@
+uuid: 6c311119-941f-429b-83d2-54d3bc80565b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_images
+    - media.type.image
+    - node.type.hobo_nickels
+id: node.hobo_nickels.field_images
+field_name: field_images
+entity_type: node
+bundle: hobo_nickels
+label: Images
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

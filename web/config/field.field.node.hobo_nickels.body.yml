@@ -1,0 +1,24 @@
+uuid: 40e5db1d-9a57-4e03-9d62-c641ea189a28
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.hobo_nickels
+  module:
+    - text
+id: node.hobo_nickels.body
+field_name: body
+entity_type: node
+bundle: hobo_nickels
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary
